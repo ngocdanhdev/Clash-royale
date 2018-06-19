@@ -1,0 +1,171 @@
+ * {
+    font-family: 'Quicksand', sans-serif;
+ }
+ html, body {
+     height: 100%
+ }
+ .navbar a {
+     margin: 10px;
+     border: 1px solid rgb(172, 172, 172);
+     border-radius: 4px;
+ }
+ .navbar a:hover:not(#gt) {
+     background: rgba(163, 158, 158, 0.377);
+ }
+ 
+ #gioithieu {
+    background-image: url(img/bg-gioithieu.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: 100vw;
+    position: relative;
+    background-repeat: no-repeat;
+ }
+ .box {
+     width: 50vw;
+     height: 50vh;
+     background: rgba(27, 27, 27, 0.555);
+     position: absolute;
+     left: 25vw;
+     top: 30vh;
+     color: white;
+     overflow: auto;
+ }
+ .box h2 {
+    font-family: 'Special Elite', cursive;
+    font-size: 2.2rem;
+    text-align: center;
+    margin: 30px 0 0 0;
+ }
+ .box p {
+     text-align: center;
+     margin-top: 0px;
+     font-size: 1.3rem;
+ }
+ .box button {
+    padding: 16px;
+    margin-left: 20vw;
+    border: 1px solid rgba(39, 38, 38, 0.842);
+ }
+ .box button a {
+    font-family: 'Yeon Sung', cursive;
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+ }
+
+ /*The bai*/
+
+ #thebai, #legendary, #giaidau, #tintuc {
+     padding-top: 85px;
+
+ }
+ .thebai,.legendary, .giaidau, .tintuc {
+     padding: 40px;
+ }
+ .thebai h2, .legendary h2, .giaidau h2, .tintuc h2 {
+     border-left: 5px solid lightblue;
+     padding-left: 10px;
+ }
+ .thebai .row {
+     display: flex;
+     position: relative;
+ }
+ .thebai .row .col-sm-3 {
+     margin: auto;
+     height: 400px;
+     background: rgba(135, 206, 250, 0.411);
+     border: 1px solid rgba(119, 119, 119, 0.377);
+ } 
+ .thebai img {
+     display: block;
+     margin: 10px auto 10px auto;
+     width: 75px;
+ }
+ .thebai .row button {
+     position: absolute;
+     bottom: 30px;
+     display: inline-block;
+     text-align: center;
+ }
+ .col-sm-3 h4 {
+     color: lightseagreen
+ }
+
+ /*LEGENDARY */
+ .legendary img {
+     display: block;
+     margin: auto;
+     width: 200px;
+     height: auto
+ }
+ .col-sm-2 img {
+     display: block;
+     margin: auto;
+     width: 80px;
+ }
+.legendary .row {
+    display: flex;
+}
+.col-sm-2 {
+    margin: auto;
+    margin-top: 10px;
+}
+.legendary .card {
+    background: lightblue;
+}
+.col-sm-2 h5 {
+    margin-top: 20px;
+    color: #777
+}
+
+/* Giai dau */
+
+.giaidau table p, .tintuc .col-sm-3 {
+    cursor: pointer;
+    margin: 0
+}
+.giaidau table img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+/*tin tức */
+
+.tt {
+    width: 100%;
+    background: #4549A8;
+    font-size: 1.2rem;
+    color: white;
+}
+.tintuc img {
+    width: 100%;
+}
+.tintuc .col-sm-3 {
+    border: 1px solid #777;
+    border-radius: 4px;
+    padding: 0;
+}
+.tintuc .title {
+    height: 120px;
+}
+.tintuc .title p {
+    color: #888;
+    font-size: 0.8rem;
+    margin: 3px;
+}
+.tintuc .row {
+    display: flex;
+}
+.tintuc .col-sm-3 {
+    margin: auto;
+    margin-top: 30px
+}
+.tintuc p, .tintuc h5 {
+    margin-left: 10px
+}
+.tintuc .col-sm-3 img:hover {
+    background: rgba(136, 136, 136, 0.192);
+    transform: rotate(1.2);
+    overflow: hidden;
+}
